@@ -1,0 +1,66 @@
+body {
+  background-image: url("background.sunset.JPG");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 3000px 1000px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+
+.main-weather-icon {
+  font-size: 70px;
+}
+
+.container-results-main {
+  border-radius: 10px;
+  margin: 5px;
+  height: 320px;
+  background-color: white;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.container-results-hourly {
+  border-radius: 10px;
+  margin: 5px;
+  height: 320px;
+  background-color: white;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.container-daily {
+  border-radius: 10px;
+  margin: 5px;
+  height: 150px;
+  background-color: white;
+  opacity: 0.5;
+  text-align: center;
+}
+
+form {
+  display: inline;
+}
+
+button {
+  display: inline;
+  text-align: center;
+  height: 31px;
+  width: 31px;
+}
+
+.container-daily {
+  transition: 0.1s, transform 0.1s ease;
+  -moz-transition: 0.1s, transform 0.1s ease;
+  -webkit-transition: 0.1s, transform 0.1s ease;
+}
+
+.container-daily:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
