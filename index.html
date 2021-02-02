@@ -19,5 +19,163 @@
   </head>
 </html>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-9">
+        <div class="container container-results-main">
+          <div class="current-city">
+            <h1 id="main-city">London</h1>
+          </div>
+          <br />
+          <div class="current-date-time">
+            <h5>
+              <span id="current-date">day and time</span>
+            </h5>
+          </div>
+          <br />
+          <div class="row justify-content-center">
+            <div class="col-2">
+              <i class="fas fa-sun main-weather-icon"></i>
+            </div>
+            <div class="col-1">
+              <h5 id="temperature-element" class="main-weather-text">17°C</h5>
+
+              <h5>sunny</h5>
+            </div>
+          </div>
+          <br />
+          <form id="search-city">
+            <input
+              type="text"
+              placeholder="search for a city"
+              autocomplete="off"
+              autofocus="on"
+              id="search-text-input"
+            />
+            <input type="submit" value="search" />
+          </form>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            id="celsius-button"
+          >
+            C
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-secondary"
+            id="farenheit-button"
+          >
+            F
+          </button>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="container container-results-hourly">
+          <div class="row">
+            <div class="col">
+              <span>23h</span>
+              <i class="fas fa-moon"></i>
+              <span>14º</span>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <span>00h</span>
+              <i class="fas fa-moon"></i>
+              <span>12º</span>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <span>01h</span>
+              <i class="fas fa-moon"></i>
+              <span>12º</span>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <span>02h</span>
+              <i class="fas fa-moon"></i>
+              <span>10º</span>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <span>03h</span>
+              <i class="fas fa-moon"></i>
+              <span>10º</span>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <span>04h</span>
+              <i class="fas fa-moon"></i>
+              <span>11º</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <div class="container container-daily">
+          <p id="day-1">Tue</p>
+          <i class="fas fa-cloud-sun"></i>
+          <p>H:14º / L:9º</p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="container container-daily">
+          <p id="day-2">
+            Wed<br />
+            <i class="fas fa-cloud-sun"></i><br />
+            H:16º / L:11º
+          </p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="container container-daily">
+          <p id="day-3">
+            Thu<br />
+            <i class="fas fa-cloud-sun-rain"></i><br />
+            H:14º / L:8º
+          </p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="container container-daily">
+          <p id="day-4">
+            Fri<br />
+            <i class="fas fa-cloud-sun-rain"></i><br />
+            H:12º / L:7º
+          </p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="container container-daily">
+          <p id="day-5">
+            Sat<br />
+            <i class="fas fa-sun"></i><br />
+            H:18º / L:12º
+          </p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="container container-daily">
+          <p id="day-6">
+            Sun<br />
+            <i class="fas fa-sun"></i><br />
+            H:19º / L:12º
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="src/script.js"></script>
 </body>
